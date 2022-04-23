@@ -5,7 +5,7 @@
 // point: adresse de la var *point: val de la var &point: adresse du point
 // *point pour déclarer point
 
-void inverser_nombre(int *pt_a, int *pt_b){
+void inverser_nombre(int* pt_a, int* pt_b){
     int t = *pt_a;
     *pt_a = *pt_b;
     *pt_b = t;
@@ -17,8 +17,8 @@ int main(void){
     int numA = 100;
     int numB = 30;
 
-    int *pt_sur_numA = &numA;
-    int *pt_sur_numB = &numB;
+    int* pt_sur_numA = &numA;
+    int* pt_sur_numB = &numB;
 
     printf("A: %d %p, B:%d %p\n", numA, &numA, numB, &numB);
 

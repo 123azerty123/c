@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mudada:block/expensive_potato_block"
+  }
+}
